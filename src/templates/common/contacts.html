@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAPLETECH / Contacts</title>
+</head>
+<body>
+     {% extends 'common/menu.html' %}
+     {% block content %}
+     
+      <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;margin-top: 50px;">
+                Contacts
+            </h1>
+    <div class="container-fluid" style="text-align: center;padding-top: 50px;display:flex;justify-content: center;">
+           
+           
+            <hr style="border: 1 solid rgb(63, 63, 163);">
+            <div style="margin-right: 50px; padding: 10px; float: left;border: 1px dashed rgb(62, 60, 60);border-radius: 15px;">
+                <i class="bi bi-telephone-x fs-1"></i><br>
+                Phone : 829.308.8842
+            </div>
+
+              <div style="margin-right: 50px; padding: 10px; float: left;border: 1px dashed rgb(62, 60, 60);border-radius: 15px;">
+                <i class="bi bi-envelope-at-fill fs-1"></i><br>
+               Email : napletech@gmail.com
+            </div>
+            
+            <div style="margin-right: 50px; padding: 10px; float: left;border: 1px dashed rgb(62, 60, 60);border-radius: 15px;">
+                <i class="bi bi-youtube fs-1"></i><br>
+                Youtube : <a href="">Youtube/napletech.com</a>
+            </div>            
+    </div>
+    {% endblock%}
+</body>
+</html>

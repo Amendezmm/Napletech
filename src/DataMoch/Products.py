@@ -36,4 +36,8 @@ products = [
     {"code":102,"category":"paneles","name":"Lenovo E820","Model":"i7 L-E820", "price":"27,500", "Moneda":"$RD","url":"https://m.media-amazon.com/images/I/71Ps3BsTkML.__AC_SX300_SY300_QL70_FMwebp_.jpg"},
     {"code":103,"category":"paneles","name":"Lenovo E820","Model":"i7 L-E820", "price":"27,500", "Moneda":"$RD","url":"https://m.media-amazon.com/images/I/81vSPWvdToL.__AC_SX300_SY300_QL70_FMwebp_.jpg"},
     {"code":104,"category":"paneles","name":"Dell E820","Model":"i7 L-E820", "price":"27,500", "Moneda":"$RD","url":"https://m.media-amazon.com/images/I/81bfpf7M2lL.__AC_SX300_SY300_QL70_FMwebp_.jpg"},
+    {"code":105,"category":"teclados","name":"Teclados Logitch","Model":"i5 ISP-420", "price":"1,300", "Moneda":"$RD","url":"https://m.media-amazon.com/images/I/71IQO8Ve6OL._AC_UY218_.jpg"},
+    {"code":106,"category":"teclados","name":"Teclados Dell","Model":"i7 L-E820", "price":"1,800", "Moneda":"$RD","url":"https://m.media-amazon.com/images/I/615PoBIutGL._AC_UY218_.jpg"},
+    {"code":107,"category":"teclados","name":"Teclados Dell","Model":"i7 L-E820", "price":"1,650", "Moneda":"$RD","url":"https://m.media-amazon.com/images/I/51nwxyyxpyS._AC_UY218_.jpg"},
+    {"code":108,"category":"teclados","name":"Teclados Asus","Model":"i7 L-E820", "price":"2,500", "Moneda":"$RD","url":"https://m.media-amazon.com/images/I/91K47RxNT3L._AC_UY218_.jpg"},
     ]
