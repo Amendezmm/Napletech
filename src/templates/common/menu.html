@@ -26,7 +26,7 @@
 
      </div>         
   <div>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="font-family: 'Roboto', sans-serif;font-size: 15px;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="font-family: 'Roboto', sans-serif;font-size: 15px;padding-top: 20px;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" 
       style="border: 2px solid orangered;padding: 5px;border-radius: 7px; background-color: rgb(37, 37, 60);color: whitesmoke;">
@@ -51,13 +51,13 @@
               <input type="hidden" name="txtsearch" id="txtsearch">  
               <input type="hidden" name="category" id="category" value="True">              
               <ul class="dropdown-menu" style="font-family: 'Montserrat', sans-serif;font-size: 15px;">
-                <li><a class="dropdown-item" onclick="enviarMenu('laptop')" href="#">Laptop</a></li>
-                <li><a class="dropdown-item" href="#">Desktop</a></li>
-                <li><a class="dropdown-item" href="#">Monitores</a></li>
-                <li><a class="dropdown-item" href="#">Teclados</a></li>
-                <li><a class="dropdown-item" href="#">Mouses</a></li>
-                <li><a class="dropdown-item" href="#">Discos Duros</a></li>
-                <li><a class="dropdown-item" href="#">Memorias</a></li>
+                <li><a class="dropdown-item" onclick="enviarMenu('laptop')" href="#">Laptop</a></li>                
+                 <li><a class="dropdown-item" onclick="enviarMenu('desktop')" href="#">Desktop</a></li>                
+                <li><a class="dropdown-item" onclick="enviarMenu('monitores')" href="#">Monitores</a></li>                
+                <li><a class="dropdown-item" onclick="enviarMenu('teclados')" href="#">Teclados</a></li>                
+                <li><a class="dropdown-item" onclick="enviarMenu('mouses')" href="#">Mouses</a></li>                
+                <li><a class="dropdown-item" onclick="enviarMenu('discosduros')" href="#">Discos Duros</a></li>                
+                <li><a class="dropdown-item" onclick="enviarMenu('memorias')" href="#">Memorias</a></li>
                 <li><a class="dropdown-item" href="#">Otros equipos tecnologicos</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Equipos de Refrigeración</a></li>
@@ -67,16 +67,18 @@
                 <li><a class="dropdown-item" onclick="enviarMenu('phone')" href="#">Phone</a></li>
               </ul>
             </form>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Test</a>
-          </li>
+          </li>         
           <li class="nav-item">
              <form action="/" class="d-flex" role="search" method="post">
-              <div class="input-group mb-3" style="border: 1px solid grey; border-radius: 8px;">
+              <div class="input-group mb-3" style="margin-left: 50px;width: 450px;">
                 <input type="hidden" name="category" id="category" value="False"> 
-                <input type="text" class="form-control" name="txtsearch" placeholder="Find products" aria-label="Recipient’s username" aria-describedby="button-addon2">
-                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">
+                
+                <input type="text" class="form-control" name="txtsearch" 
+                placeholder="Find products" aria-label="Recipient’s username" 
+                aria-describedby="button-addon2" style="border: 1 solid blue; border-radius: 25px;  z-index: 0;">
+                
+                <button class="btn btn-outline-secondary" type="submit" id="button-addon2" 
+                style="border: 1 solid peru; border-radius: 0px 25px 25px 0px;margin-left: -44px; z-index: 2;">
                   <i class="bi bi-search"></i>
                 </button>
               </div>                 
